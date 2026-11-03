@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Save Library — Zago Mello</title>
+<link rel="stylesheet" href="css/style.css">
+</head><body>
+<nav class="nav" id="nav">
+  <a class="brand" href="index.html#top">ZAGO <span>MELLO</span></a>
+  <button class="burger" aria-label="Menu" onclick="document.querySelector('.links').classList.toggle('open')">☰</button>
+  <ul class="links">
+    <li><a href="index.html#reel">Saves</a></li><li><a href="index.html#control">Ball Control</a></li>
+    <li><a href="index.html#gallery">Gallery</a></li><li><a href="index.html#bio">Bio</a></li>
+    <li><a href="index.html#cards">Cards</a></li><li><a href="index.html#coaching">Coaching</a></li>
+    <li><a href="library.html" class="active">Library</a></li><li><a href="index.html#contact">Contact</a></li>
+  </ul>
+</nav>
+<section class="pagehead"><div class="wrap">
+  <div class="eyebrow">Full-length clips</div><h2>Save Library</h2>
+  <p class="lead">Every clip from the album in full. Videos are added as they go up on YouTube.</p>
+  <div class="lib" id="lib"></div>
+  <p class="note">To add a video, edit <code>data/videos.json</code>: paste the YouTube video ID into <code>youtubeId</code> (for example <code>dQw4w9WgXcQ</code> from youtube.com/watch?v=…). To add a clip, append a new entry.</p>
+</div></section>
+<footer><span>© Zago Mello · Vancouver, BC</span><a href="index.html">← Back to main page</a></footer>
+<script src="js/main.js"></script>
+</body></html>
