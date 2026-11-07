@@ -134,3 +134,9 @@ footer{padding:40px 4vw;border-top:1px solid var(--line);color:#666;font-size:15
 .bc{grid-template-columns:minmax(320px,600px) 1fr;gap:48px}
 .bc .player{max-width:580px}
 @media(max-width:760px){.bc{grid-template-columns:1fr}.bc .player{max-width:min(94vw,480px)}}
+
+/* reel still + play button */
+.playstill{display:block;width:100%;aspect-ratio:16/9;border:0;padding:0;cursor:pointer;background:#000 center/cover no-repeat;position:relative}
+.playstill .pbtn{position:absolute;left:50%;top:50%;width:84px;height:84px;margin:-42px 0 0 -42px;border-radius:50%;background:rgba(0,0,0,.55);border:3px solid #fff}
+.playstill .pbtn::after{content:"";position:absolute;left:50%;top:50%;margin:-16px 0 0 -10px;border-left:30px solid #fff;border-top:16px solid transparent;border-bottom:16px solid transparent}
+.playstill:hover .pbtn{background:var(--accent)}

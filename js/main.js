@@ -15,11 +15,15 @@ const soon=el=>{el.innerHTML=`<img src="${el.dataset.poster}" alt="" style="widt
 const fill=(el,id)=>{if(!el)return;id?el.innerHTML=ytEmbed(id):soon(el)};
 fill(document.getElementById('reelPlayer'),REEL_YT);
 fill(document.getElementById('controlPlayer'),CONTROL_YT);
-// reel chapters: reload the embed at the chosen second
-const rp=document.getElementById('reelPlayer');
-document.querySelectorAll('#chapters button').forEach(b=>b.onclick=()=>{
- if(rp&&REEL_YT)rp.innerHTML=ytEmbed(REEL_YT,+b.dataset.t,true);
- document.querySelectorAll('#chapters button').forEach(x=>x.classList.toggle('on',x===b))});
+// reel chapters: show that save's still image with a play button; the video starts when the still is clicked
+const rp=document.getElementById('reelPlayer'),chs=[...document.querySelectorAll('#chapters button')];
+let curCh=null;
+const still=(img,t)=>{if(!rp)return;
+ if(!REEL_YT){soon(rp);return}
+ rp.innerHTML=`<button class="playstill" aria-label="Play" style="background-image:url('${img}')"><span class="pbtn"></span></button>`;
+ rp.querySelector('.playstill').onclick=()=>{rp.innerHTML=ytEmbed(REEL_YT,t,true)}};
+chs.forEach(b=>b.onclick=()=>{curCh=b;still(b.dataset.img,+b.dataset.t);chs.forEach(x=>x.classList.toggle('on',x===b))});
+if(rp&&REEL_YT)still('reel/poster.jpg',0);
 // lightbox
 const lb=document.getElementById('lb');
 if(lb){const links=[...document.querySelectorAll('#grid a')];let cur=0;const im=lb.querySelector('img'),cap=lb.querySelector('.cap');
