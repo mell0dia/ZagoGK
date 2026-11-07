@@ -31,7 +31,7 @@
 <section id="reel"><div class="wrap reveal">
   <div class="eyebrow">Highlights</div><h2>Save Reel</h2>
   <p class="lead">Five saves, six seconds each. Pick one below to jump straight to it.</p>
-  <div class="player"><video id="reelVid" controls muted playsinline preload="metadata" poster="reel/poster.jpg"><source src="reel/hero-reel-720p.mp4" type="video/mp4"></video></div>
+  <div class="player" id="reelPlayer" data-poster="reel/poster.jpg"></div>
   <div class="chapters" id="chapters">
     <button data-t="0"><b>01 · Fingertip</b>High shot pushed away</button>
     <button data-t="6"><b>02 · Smother</b>At the striker's feet</button>
@@ -43,7 +43,7 @@
 </div></section>
 
 <section id="control" class="alt"><div class="wrap bc reveal">
-  <video autoplay muted loop playsinline preload="metadata" poster="media/ball-control-poster.jpg"><source src="media/ball-control.mp4" type="video/mp4"></video>
+  <div class="player" id="controlPlayer" data-poster="media/ball-control-poster.jpg"></div>
   <div>
     <div class="eyebrow">Footwork</div><h2>Ball<br>Control</h2>
     <p class="lead">A goalkeeper who's comfortable with the ball at his feet. Juggling, close touches, and calm on the ball.</p>
