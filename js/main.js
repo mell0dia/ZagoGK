@@ -21,7 +21,16 @@ let curCh=null;
 const still=(img,t)=>{if(!rp)return;
  if(!REEL_YT){soon(rp);return}
  rp.innerHTML=`<button class="playstill" aria-label="Play" style="background-image:url('${img}')"><span class="pbtn"></span></button>`;
- rp.querySelector('.playstill').onclick=()=>{rp.innerHTML=ytEmbed(REEL_YT,t,true)}};
+ rp.querySelector('.playstill').onclick=()=>playReel(img,t)};
+// load the YouTube player behind the still; the still stays on top until the right frame is actually playing
+let ytApi=null;const loadYT=()=>ytApi||(ytApi=new Promise(res=>{if(window.YT&&YT.Player)return res();const s=document.createElement('script');s.src='https://www.youtube.com/iframe_api';document.head.appendChild(s);window.onYouTubeIframeAPIReady=res}));
+const playReel=(img,t)=>{
+ rp.innerHTML=`<div class="ytwrap"><div id="ytp"></div><div class="cover" style="background-image:url('${img}')"><span class="spin"></span></div></div>`;
+ const cover=rp.querySelector('.cover');const done=()=>cover&&cover.remove();
+ const fallback=setTimeout(done,8000);
+ loadYT().then(()=>{new YT.Player('ytp',{host:'https://www.youtube-nocookie.com',videoId:REEL_YT,
+  playerVars:{start:t,autoplay:1,rel:0,modestbranding:1,playsinline:1},
+  events:{onStateChange:e=>{if(e.data===1){clearTimeout(fallback);setTimeout(done,250)}}}})})};
 chs.forEach(b=>b.onclick=()=>{curCh=b;still(b.dataset.img,+b.dataset.t);chs.forEach(x=>x.classList.toggle('on',x===b))});
 if(rp&&REEL_YT)still('reel/poster.jpg',0);
 // lightbox
