@@ -8,8 +8,8 @@ const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.targ
 document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 const yr=document.getElementById('yr'); if(yr) yr.textContent=new Date().getFullYear();
 // YouTube players: paste the video IDs here (videos are on YouTube only, not in the repo)
-const REEL_YT='';      // Save Reel (the 5 saves, 6 s each)
-const CONTROL_YT='';   // Ball Control
+const REEL_YT='b_myxeB4b48';      // Save Reel (the 5 saves, 6 s each)
+const CONTROL_YT='vC4PblFPXtY';   // Ball Control
 const ytEmbed=(id,start,auto)=>`<iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}?rel=0&modestbranding=1&start=${start||0}${auto?'&autoplay=1':''}" title="Zago Mello" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
 const soon=el=>{el.innerHTML=`<img src="${el.dataset.poster}" alt="" style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block"><div style="position:absolute;inset:0;display:grid;place-items:center;background:rgba(0,0,0,.45);font-family:Bebas;font-size:28px;letter-spacing:2px">Coming soon</div>`};
 const fill=(el,id)=>{if(!el)return;id?el.innerHTML=ytEmbed(id):soon(el)};
