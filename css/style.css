@@ -122,3 +122,7 @@ footer{padding:40px 4vw;border-top:1px solid var(--line);color:#666;font-size:15
 .bio>*,.bc>*,.stats>div{min-width:0}html,body{overflow-x:hidden}
 
 .player iframe{width:100%;aspect-ratio:16/9;border:0;display:block}
+/* Ball Control: vertical (9:16) YouTube player, about 2x larger than the old 16:9 box */
+.bc .player{max-width:300px;width:100%;aspect-ratio:9/16;margin:0 auto}
+.bc .player iframe,.bc .player img{width:100%;height:100%;aspect-ratio:9/16;object-fit:cover}
+@media(max-width:760px){.bc .player{max-width:340px}}
