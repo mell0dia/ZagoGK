@@ -22,7 +22,7 @@ img,video{max-width:100%;display:block}
 .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#000 2%,#0008 35%,#0003 70%,#000a)}
 .hero-txt{position:relative;z-index:2;padding:0 4vw 9vh}
 .kicker{font-weight:600;letter-spacing:6px;text-transform:uppercase;color:var(--accent);font-size:16px}
-.hero h1{font-family:Bebas;font-weight:400;font-size:clamp(84px,17vw,260px);line-height:.85;letter-spacing:2px}
+.hero h1{font-family:Bebas;font-weight:400;font-size:clamp(42px,8.5vw,130px);line-height:.85;letter-spacing:2px}
 .hero .role{font-family:Bebas;font-size:clamp(28px,4vw,52px);letter-spacing:10px;color:#fff}
 .hero .role b{color:var(--accent);font-weight:400}
 .btns{display:flex;gap:14px;margin-top:26px;flex-wrap:wrap}
