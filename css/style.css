@@ -130,3 +130,7 @@ footer{padding:40px 4vw;border-top:1px solid var(--line);color:#666;font-size:15
 .bc{grid-template-columns:minmax(300px,500px) 1fr}
 .bc .player{max-width:480px}
 @media(max-width:760px){.bc{grid-template-columns:1fr}.bc .player{max-width:min(92vw,420px)}}
+/* Ball Control v4: wider */
+.bc{grid-template-columns:minmax(320px,600px) 1fr;gap:48px}
+.bc .player{max-width:580px}
+@media(max-width:760px){.bc{grid-template-columns:1fr}.bc .player{max-width:min(94vw,480px)}}
