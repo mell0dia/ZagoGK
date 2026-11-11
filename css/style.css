@@ -175,3 +175,12 @@ a.mail{color:var(--accent)}
 @media (max-width:900px){.lsel{order:2;margin-left:auto;margin-right:10px}.burger{order:3}.links{order:4}}
 .collage{display:block;position:relative;max-width:560px;margin-top:26px;border:1px solid var(--line);overflow:hidden}.collage img{width:100%;transition:transform .5s,filter .5s}.collage:hover img{transform:scale(1.03);filter:brightness(.85)}.collage .btn{position:absolute;left:14px;bottom:14px;padding:8px 16px;font-size:13px}
 .yt{display:flex;gap:12px;flex-wrap:wrap;margin:18px 0 8px}.yt .btn{padding:10px 20px;font-size:14px}
+.collage{max-width:none;width:100%;margin-left:0}.collage img{display:block;width:100%;height:auto}.collage .btn{left:14px;bottom:14px}
+.tiers.one{grid-template-columns:minmax(0,820px)}
+.tier.hot{background:#000;border:1px solid #fff;padding:40px}
+.tier.hot h3{color:#fff;font-size:80px;line-height:1}
+.tier.hot .price{color:#d90f1f;font-size:68px;line-height:1}
+.tier.hot .price small{color:#fff;font-size:40px}
+.tier.hot ul{color:#fff;font-size:32px;line-height:1.25}
+.tier.hot li::before{color:#d90f1f}
+@media(max-width:700px){.tier.hot h3{font-size:52px}.tier.hot .price{font-size:48px}.tier.hot .price small{font-size:28px}.tier.hot ul{font-size:22px}}
