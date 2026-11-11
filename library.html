@@ -2,24 +2,27 @@
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Save Library — Zago Mello</title>
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css?v=13">
 </head><body>
-<nav class="nav" id="nav">
-  <a class="brand" href="index.html#top">ZAGO <span>MELLO</span></a>
+<nav class="nav solid" id="nav">
+  <a class="brand" href="index.html">ZAGO <span>MELLO</span></a>
   <button class="burger" aria-label="Menu" onclick="document.querySelector('.links').classList.toggle('open')">☰</button>
   <ul class="links">
-    <li><a href="index.html#reel">Saves</a></li><li><a href="index.html#control">Ball Control</a></li>
-    <li><a href="index.html#gallery">Gallery</a></li><li><a href="index.html#bio">Bio</a></li>
-    <li><a href="index.html#cards">Cards</a></li><li><a href="index.html#coaching">Coaching</a></li>
-    <li><a href="library.html" class="active">Library</a></li><li><a href="index.html#contact">Contact</a></li>
+    <li><a href="ballcontrol.html">Ball Control</a></li>
+    <li><a href="index.html#bio">Profile</a></li>
+    <li><a href="index.html#coaching">GK Lessons</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="cards.html">Cards</a></li>
+    <li><a href="library.html" class="active">Library</a></li>
   </ul>
 </nav>
 <section class="pagehead"><div class="wrap">
   <div class="eyebrow">Full-length clips</div><h2>Save Library</h2>
   <p class="lead">Every clip from the album in full. Videos are added as they go up on YouTube.</p>
+  <div class="yt"><a class="btn" href="https://www.youtube.com/@zagogk" target="_blank" rel="noopener">▶ Zago GK · YouTube</a><a class="btn fill" href="https://www.youtube.com/@zagogk?sub_confirmation=1" target="_blank" rel="noopener">Subscribe</a></div>
   <div class="lib" id="lib"></div>
-  <p class="note">To add a video, edit <code>data/videos.json</code>: paste the YouTube video ID into <code>youtubeId</code> (for example <code>dQw4w9WgXcQ</code> from youtube.com/watch?v=…). To add a clip, append a new entry.</p>
 </div></section>
-<footer><span>© Zago Mello · Vancouver, BC</span><a href="index.html">← Back to main page</a></footer>
-<script src="js/main.js"></script>
+<footer><span>© Zago Mello · Vancouver, BC</span><a href="index.html">← Back to home</a><a href="https://www.youtube.com/@zagogk" target="_blank" rel="noopener">YouTube: Zago GK</a></footer>
+<script src="js/i18n.js?v=6"></script>
+<script src="js/main.js?v=11"></script>
 </body></html>

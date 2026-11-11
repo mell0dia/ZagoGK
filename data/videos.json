@@ -1,33 +1,42 @@
 [
  {
-  "title": "Clip 01 · Album #2",
+  "title": "Starfire Tournament, Seattle 2026 · Riptide, U13 Champions",
+  "albumN": 0,
+  "date": "2026-09-07",
+  "duration": 40,
+  "youtubeId": "OvTeMHbNsW4",
+  "poster": "img/library/starfire.jpg",
+  "sourceFile": "20260907_170434.mp4"
+ },
+ {
+  "title": "Match clip · 24 Oct 2026",
   "albumN": 2,
   "date": "2026-10-24",
   "duration": 25,
-  "youtubeId": "",
+  "youtubeId": "obBrzqE-mRk",
   "poster": "img/library/n002.jpg",
   "sourceFile": "01_album-n002_2026-10-24.mp4"
  },
  {
-  "title": "Clip 02 · Album #3",
+  "title": "Match clip · 25 Oct 2025",
   "albumN": 3,
   "date": "2025-10-25",
   "duration": 9,
-  "youtubeId": "",
+  "youtubeId": "QDixlt49rhE",
   "poster": "img/library/n003.jpg",
   "sourceFile": "02_album-n003_2025-10-25.mp4"
  },
  {
-  "title": "Clip 03 · Album #4",
+  "title": "Match clip · 21 Jun 2026",
   "albumN": 4,
   "date": "2026-06-21",
   "duration": 29,
-  "youtubeId": "",
+  "youtubeId": "uzC_LPIHALk",
   "poster": "img/library/n004.jpg",
   "sourceFile": "03_album-n004_2026-06-21.mp4"
  },
  {
-  "title": "Clip 04 · Album #5",
+  "title": "Leaping save at the crossbar",
   "albumN": 5,
   "date": "2026-06-06",
   "duration": 14,
@@ -36,25 +45,25 @@
   "sourceFile": "04_album-n005_2026-06-06.mp4"
  },
  {
-  "title": "Clip 05 · Album #6",
+  "title": "Match clip · 21 Jun 2026",
   "albumN": 6,
   "date": "2026-06-21",
   "duration": 4,
-  "youtubeId": "",
+  "youtubeId": "O0CSTpm3nrs",
   "poster": "img/library/n006.jpg",
   "sourceFile": "05_album-n006_2026-06-21.mp4"
  },
  {
-  "title": "Clip 06 · Album #7",
+  "title": "Match clip · 4 May 2026",
   "albumN": 7,
   "date": "2026-05-04",
   "duration": 6,
-  "youtubeId": "",
+  "youtubeId": "_WMe7bBVnE8",
   "poster": "img/library/n007.jpg",
   "sourceFile": "06_album-n007_2026-05-04.mp4"
  },
  {
-  "title": "Clip 07 · Album #8",
+  "title": "Flying save to the top corner",
   "albumN": 8,
   "date": "2026-05-04",
   "duration": 7,
@@ -63,16 +72,16 @@
   "sourceFile": "07_album-n008_2026-05-04.mp4"
  },
  {
-  "title": "Clip 08 · Album #9",
+  "title": "Match clip · 20 Jun 2026",
   "albumN": 9,
   "date": "2026-06-20",
   "duration": 14,
-  "youtubeId": "",
+  "youtubeId": "AJ5jW-JrIC0",
   "poster": "img/library/n009.jpg",
   "sourceFile": "08_album-n009_2026-06-20.mp4"
  },
  {
-  "title": "Clip 09 · Album #10",
+  "title": "Juggling and ball control",
   "albumN": 10,
   "date": "2025-09-05",
   "duration": 46,
@@ -81,7 +90,7 @@
   "sourceFile": "09_album-n010_2025-09-05.mp4"
  },
  {
-  "title": "Clip 10 · Album #11",
+  "title": "Low dive to the near post",
   "albumN": 11,
   "date": "2026-02-16",
   "duration": 8,
@@ -90,7 +99,7 @@
   "sourceFile": "10_album-n011_2026-02-16.mp4"
  },
  {
-  "title": "Clip 11 · Album #12",
+  "title": "One-on-one: smothering the ball at the striker's feet",
   "albumN": 12,
   "date": "2026-06-21",
   "duration": 11,
@@ -99,29 +108,29 @@
   "sourceFile": "11_album-n012_2026-06-21.mp4"
  },
  {
-  "title": "Clip 12 · Album #13",
+  "title": "Match clip · 21 Jun 2026",
   "albumN": 13,
   "date": "2026-06-21",
   "duration": 4,
-  "youtubeId": "",
+  "youtubeId": "F2njAxDW81g",
   "poster": "img/library/n013.jpg",
   "sourceFile": "12_album-n013_2026-06-21.mp4"
  },
  {
-  "title": "Clip 13 · Album #14",
+  "title": "Match clip · 21 Jun 2026",
   "albumN": 14,
   "date": "2026-06-21",
   "duration": 6,
-  "youtubeId": "",
+  "youtubeId": "98XrR4wR93E",
   "poster": "img/library/n014.jpg",
   "sourceFile": "13_album-n014_2026-06-21.mp4"
  },
  {
-  "title": "Clip 14 · Album #15",
+  "title": "Match clip · 27 Sep 2025",
   "albumN": 15,
   "date": "2025-09-27",
   "duration": 8,
-  "youtubeId": "",
+  "youtubeId": "re_B077xjBE",
   "poster": "img/library/n015.jpg",
   "sourceFile": "14_album-n015_2025-09-27.mp4"
  },
@@ -133,5 +142,27 @@
   "youtubeId": "",
   "poster": "img/library/n016.jpg",
   "sourceFile": "15_album-n016_2026-06-21.mp4"
+ },
+ {
+  "title": "Inter Summer Camp, August 2025",
+  "albumN": 101,
+  "date": "2025-08-14",
+  "duration": 3,
+  "youtubeId": "",
+  "poster": "img/library/inter-camp.jpg",
+  "sourceFile": "16_inter-camp_2025-08-14.mp4",
+  "ytTitle": "Inter Summer Camp, August 2025 | Zago Mello, goalkeeper",
+  "ytDesc": "Zago Mello, goalkeeper (Vancouver United), at the Inter Summer Camp, August 2025."
+ },
+ {
+  "title": "Outstanding Team Award, U11 Villains, May 2025",
+  "albumN": 102,
+  "date": "2025-05-27",
+  "duration": 3,
+  "youtubeId": "",
+  "poster": "img/library/award-u11.jpg",
+  "sourceFile": "17_award-u11_2025-05-27.mp4",
+  "ytTitle": "Outstanding Team Award, U11 Villains, May 2025 | Zago Mello, goalkeeper",
+  "ytDesc": "Outstanding Team Award, Boys U11 Villains, May 2025. Zago Mello is the goalkeeper (Vancouver United)."
  }
 ]

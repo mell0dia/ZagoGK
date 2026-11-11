@@ -1,5 +1,5 @@
 // ===== CONFIG: replace placeholder before publishing =====
-const CONTACT_EMAIL = "[CONTACT EMAIL]";
+const CONTACT_EMAIL = "rico.duoba@gmail.com";
 // =========================================================
 const nav=document.getElementById('nav');
 addEventListener('scroll',()=>nav.classList.toggle('solid',scrollY>40),{passive:true});
@@ -36,7 +36,7 @@ if(rp&&REEL_YT)still('reel/poster.jpg',0);
 // lightbox
 const lb=document.getElementById('lb');
 if(lb){const links=[...document.querySelectorAll('#grid a')];let cur=0;const im=lb.querySelector('img'),cap=lb.querySelector('.cap');
- const show=i=>{cur=(i+links.length)%links.length;im.src=links[cur].href;cap.textContent=(cur+1)+' / '+links.length;lb.classList.add('open')};
+ const show=i=>{cur=(i+links.length)%links.length;im.src=links[cur].href;cap.textContent=(links[cur].dataset.cap?(window.I18N?I18N.t(links[cur].dataset.cap):links[cur].dataset.cap)+'  ·  ':'')+(cur+1)+' / '+links.length;lb.classList.add('open')};
  links.forEach((a,i)=>a.onclick=e=>{e.preventDefault();show(i)});
  lb.querySelector('.x').onclick=()=>lb.classList.remove('open');
  lb.querySelector('.prev').onclick=e=>{e.stopPropagation();show(cur-1)};
