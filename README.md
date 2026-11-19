@@ -1,4 +1,4 @@
-# Zago Mello: goalkeeper site (LOCAL DRAFT, not published)
+# Zago Mello: goalkeeper site (live: https://mell0dia.github.io/ZagoGK/)
 Plain static HTML/CSS/JS with relative paths and no build step, so it works on GitHub Pages as-is (`.nojekyll` included).
 Preview: `python3 -m http.server 8080` in this folder, then open http://localhost:8080/
 

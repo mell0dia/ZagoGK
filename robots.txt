@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mell0dia.github.io/ZagoGK/sitemap.xml
